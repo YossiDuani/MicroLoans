@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      About
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item>
+      <ion-input [(ngModel)]="amount" type="number" placeholder="Amount"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <ion-input [(ngModel)]="rate" type="number" placeholder="Rate"></ion-input>
+    </ion-item>
+  
+  </ion-list>
+  <button ion-button color="secondary" (click)="onClick()">Calculate</button>
+  the sum : {{sum}}
+
+  <inbal></inbal>
+</ion-content>
+
